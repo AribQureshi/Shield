@@ -1,0 +1,32 @@
+# SHIELD — Smart Hazard Intelligence & Early Life-saving Detection
+# Install: pip install -r requirements.txt
+
+# ── Core ──────────────────────────────────────────────────────────────────────
+streamlit>=1.35.0
+pydantic>=2.7.0
+pydantic-settings>=2.3.0
+
+# ── Computer Vision ───────────────────────────────────────────────────────────
+ultralytics>=8.2.0        # YOLOv8
+opencv-python>=4.9.0      # image decode, annotation, webcam
+Pillow>=10.3.0            # image display in Streamlit
+
+# ── Database ──────────────────────────────────────────────────────────────────
+SQLAlchemy>=2.0.30
+
+# ── AI / RAG ─────────────────────────────────────────────────────────────────
+openai>=1.30.0            # embeddings + GPT-4o-mini
+chromadb>=0.5.0           # vector store
+
+# ── Weather ───────────────────────────────────────────────────────────────────
+requests>=2.31.0
+
+# ── Visualisation ─────────────────────────────────────────────────────────────
+plotly>=5.22.0
+pandas>=2.2.0
+
+# ── Utilities ─────────────────────────────────────────────────────────────────
+python-dotenv>=1.0.1      # .env loading fallback
+numpy>=1.26.0
+
+sentence-transformers
